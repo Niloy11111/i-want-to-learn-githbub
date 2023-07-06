@@ -1,7 +1,101 @@
-div{
-    background-color: rgb(102, 88, 88);
-    font-size: larger;
-    margin: 10px;
-    padding: 10px;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.h1-font{
+    padding-bottom: 10px;
+    font-size: 45px;
+}
+.menu-container{
+    background-color: rgb(58, 56, 56);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-photo{
+    width: 120px;
+}
+.item{
+    list-style: none;
+    padding: 20px;
     
+}
+.contact-us{
+    display: flex;
+    padding: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.item:hover{
+    color:rgb(106, 109, 108)
+    
+}
+.banner-pic{
+   width: 300px;
+}
+.main-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image:url('/background.png'),linear-gradient(45deg,rgb(10, 10, 10),rgb(51, 48, 48));
+    color: white;
+}
+.btn{
+    padding: 10px;
+    margin-top: 18px;
+    background-color: red;
+}
+.about-h1{
+    font-size: 45px;
+    padding: 10px;
+    text-align: center;
+}
+.about-image{
+    width: 380px;
+}
+.section2-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section2-h2{
+    padding-bottom: 15px;
+}
+.services-h1{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.first-div{
+    width: 190px;
+    background-color: rgb(36, 34, 34);
+    text-align: center;
+    box-shadow:3px 3px 35px gray;
+    border-radius: 5px;
+}
+.image0{
+    width: 50px;
+    height: 55px;
+    padding-top:12px;
+}
+.digital-h2{
+    padding:10px 10px;
+}
+.details{
+    padding:7px;
+    background-color: rgb(37, 36, 36);
+    margin: 12px 12px;
+    box-shadow: 2px 3px 7px;
+}
+.section3-container{
+      display: flex; 
+      justify-content: space-around;
+
+}
+.main-section{
+    background-color: rgb(43, 39, 39);
+    color: white;
+    padding-bottom: 40px;
 }
