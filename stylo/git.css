@@ -125,8 +125,7 @@
 li>a{
     display: block;
     padding: 10px;
-    text-decoration: none;
-}
+    text-decoration: none;}
 li>a:hover{
     background-color:hsl(16, 100%, 66%);
 
