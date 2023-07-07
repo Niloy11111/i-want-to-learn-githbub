@@ -15,6 +15,7 @@
 .logo-photo{
     width: 120px;
 }
+
 .item{
     list-style: none;
     padding: 20px;
@@ -38,12 +39,13 @@
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    background-image:url('/background.png'),linear-gradient(45deg,rgb(10, 10, 10),rgb(51, 48, 48));
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(37, 31, 31),rgb(14, 13, 13));
     color: white;
 }
 .btn{
-    padding: 10px;
-    margin-top: 18px;
+    padding: 10px 10px;
+    border: none;
+    margin: 15px 15px;
     background-color: red;
 }
 .about-h1{
@@ -84,11 +86,16 @@
     padding:10px 10px;
 }
 .details{
-    padding:7px;
-    background-color: rgb(37, 36, 36);
-    margin: 12px 12px;
-    box-shadow: 2px 3px 7px;
+   padding: 10px 10px;
+    border: none;
+    margin: 8px 8px;
 }
+
+
+.details:hover{
+    background-color: hsl(16, 100%, 66%);
+    cursor: pointer;
+   }
 .section3-container{
       display: flex; 
       justify-content: space-around;
@@ -98,4 +105,32 @@
     background-color: rgb(43, 39, 39);
     color: white;
     padding-bottom: 40px;
+}
+.last-section{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80vh;
+    background-image:url("/images/background.png"),linear-gradient(45deg),rgb(46, 39, 39),rgb(31, 30, 30);
+}
+.logor-ma{
+    width: 170px;
+    padding-bottom: 50px;
+}
+.last-1{
+    display: block;
+}
+li>a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+li>a:hover{
+    background-color:hsl(16, 100%, 66%);
+
+
+div>ul>li{
+    list-style: none;
 }
